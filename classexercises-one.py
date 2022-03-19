@@ -20,3 +20,13 @@ for i in titulo:
   acronimo += i[0]
 
 print(acronimo)
+
+
+# Pegar la siguiente variable en una celda y completar el código de manera que Python imprima los nombres de las personas cuyos documentos sean mayores o iguales a treinta millones, ¿se animan?
+
+dnis = {'Conti': 35678456, 'Rafecas': 21435786, 'Neuer': 2876898, 'Hernández': 18565999, 'Arminia': 42375814, 'Díaz': 19678933, 'González': 25678433, 'Stark': 378974327}
+
+for dni in dnis:
+  if dnis[dni] >= 30000000:
+    print('DNI de esta persona es mayor a 30000000:', dni)
+  
